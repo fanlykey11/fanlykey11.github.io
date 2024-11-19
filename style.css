@@ -127,7 +127,48 @@ a{
     font-size: 45px;
 }
 .lain{
-    width: 1079px;
+    width: 90%;
     height: 2px;
     background-color:#FFF9F9;
+}
+footer{
+    background-color: #081630;
+    padding: 100px 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.reservation,.customer,.company{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 40px;
+}
+footer a{
+    color: white;
+    font-size: 25px;
+}
+footer h2{
+    color: white;
+    font-size: 28px;
+}
+.contacts{
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts .logo{
+    color: #FFFFFF;
+    font-size: 32px;
+}
+.icons img{
+    margin-right: 40px;
 }
