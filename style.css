@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 120px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+background-color: white;
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 120px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+}
+a{
+    text-decoration: none;
+    color: black;  
+}
+.baner{
+    background-image: url(banner.png);
+    background-size: cover;
+    width: calc(100% - 280px);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 641px;
+    padding: 105px 140px;
+}
+.baner__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 26px;
+}
+.baner__text>h1{
+    font-size: 32px;
+}
+.baner__text>p{
+    font-size: 26px;
+}
+.baner__text>a{
+    background-color:#21408E;
+    color:white;
+    font-size: 22px;
+    padding: 12px 36px;
+    border-radius: 16px;
+}
+.form{
+    margin: 74px;
+    background-color: #C4C4C4;
+    padding: 50px;
+}
+.form>*{
+    margin-bottom: 50px;
+}
+.form h1{
+    font-size: 39px;
+}
+.form p{
+    color: rgba(0, 0, 0, 0.66);
+    font-size: 24px;
+    width: 60%;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-white{
+    width: 310px;
+    height: 60px;
+    background-color:#FFF9F9;
+    border-radius: 26px ;
+}
+.input-blue{
+    background-color: #21408E;
+    border-radius: 26px;
+    padding: 25px 52px;
+    color: white;
+} 
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 300px 170px 170px 0px;
+}
+.service-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.service-item{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+    align-items: center;
+}
+.service-list h1{
+    color: #21408E;
+    font-size: 45px;
+}
+.lain{
+    width: 1079px;
+    height: 2px;
+    background-color:#FFF9F9;
+}
